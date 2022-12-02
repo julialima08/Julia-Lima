@@ -31,9 +31,9 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Retro Tic-Tac-Toe",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "My very first 'project' at General Assembly was to build a tic-tac-toe game with just HTML, Vanilla Javascript, and CSS... with just one weeks experience in all three languages. Back then, that was the hardest promt ",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
@@ -61,13 +61,13 @@ const Portfolio = () => {
     <section className="light" id="portfolio">
       <h2>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        {/* <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
-        </div>
+        </div> */}
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
