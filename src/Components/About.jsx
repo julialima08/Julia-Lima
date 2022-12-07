@@ -34,7 +34,7 @@ const skillsList = [
   "React and VueJs",
   "Fullstack(MERN and PERN)",
   "Handrolling Auth",
-  "Expert in CSS5",
+  "Expert in CSS3",
   "Open to learning new technologies",
   "Javascript, Python, Markdown",
 ];
@@ -49,15 +49,19 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="light" id="about">
+    <div className="light" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#2b2b2b",
           width: "80%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "25px",
+          mozBoxShadow: "0 0 20px #2b2b2b",
+          webkitBoxShadow: "0 0 20px #2b2b2b",
+          boxShadow: "0 0 20px #2b2b2b",
         }}
       >
         <h2>About Me</h2>
@@ -66,10 +70,11 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            columns: 3,
+            rows: 2,
+            fontSize: "1.20rem",
+            margin: "2rem 2rem",
+            gap: "2rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -79,7 +84,7 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
-    </section>
+    </div>
   );
 };
 
