@@ -27,8 +27,8 @@ const siteProps = {
   name: "Julia Lima",
   title: "Web Developer",
   email: "Julia.manvailer17@icloud.com",
-  gitHub: "https://github.com/julialima08",
-  linkedIn: "https://www.linkedin.com/in/julia-lima222/",
+  gitHub: "julialima08",
+  linkedIn: "julia-lima222",
 };
 
 const primaryColor = "#4E567E";
@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home {...siteProps} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />

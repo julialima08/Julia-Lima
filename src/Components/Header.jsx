@@ -5,12 +5,16 @@
  * user scrolls so that they can constantly reach any part of your page.
  */
 import React from "react";
+import { FaAddressBook } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { FaClipboardList } from "react-icons/fa";
+import { RiComputerLine } from "react-icons/ri";
 
 const Header = () => {
   return (
     <div
       style={{
-        position: "sticky",
+        position: "fixed",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -18,21 +22,23 @@ const Header = () => {
         background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         left: 0,
-        height: "100vw",
-        width: "35px",
+        width: "3vw",
+        height: "100vh",
         zIndex: 10,
       }}
     >
       <a href="#home">
-        <i className="fa-solid fa-house"></i>
+        <FaHome />
       </a>
       <a href="#about">
-        <i className="fa-solid fa-user"></i>
+        <FaClipboardList />
       </a>
       <a href="#portfolio">
-        <i className="fa-sharp fa-solid fa-computer-classic"></i>
+        <RiComputerLine />
       </a>
-      <a href="#contact">Contact</a>
+      <a href="#contact">
+        <FaAddressBook />
+      </a>
       {/* <script src="https://kit.fontawesome.com/16a948ec87.js"></script> */}
     </div>
   );

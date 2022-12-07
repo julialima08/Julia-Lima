@@ -54,9 +54,9 @@ const About = () => {
       <div
         style={{
           backgroundColor: "#2b2b2b",
-          width: "80%",
+          width: "65vw",
           padding: "4rem",
-          margin: "3rem auto",
+          margin: "2rem auto",
           textAlign: "center",
           borderRadius: "25px",
           mozBoxShadow: "0 0 20px #2b2b2b",
