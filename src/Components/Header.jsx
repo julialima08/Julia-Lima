@@ -9,6 +9,7 @@ import { FaAddressBook } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaClipboardList } from "react-icons/fa";
 import { RiComputerLine } from "react-icons/ri";
+import { IoNewspaperSharp } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -35,6 +36,9 @@ const Header = () => {
       </a>
       <a href="#portfolio">
         <RiComputerLine />
+      </a>
+      <a href="#resume">
+        <IoNewspaperSharp />
       </a>
       <a href="#contact">
         <FaAddressBook />

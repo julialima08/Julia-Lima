@@ -36,7 +36,7 @@ const projectList = [
     description:
       "My very first 'project' at General Assembly was to build a tic-tac-toe game with just HTML, Vanilla Javascript, and CSS... with just one weeks experience in all three languages. Back then, that was the hardest promt ",
     deployUrl: "https://retrotictactoe.surge.sh/",
-    gitUrl: "",
+    gitUrl: "https://github.com/julialima08/u1_hw_tic_tac_toe",
   },
   {
     image: "https://ucarecdn.com/474b179a-e59e-41fe-a334-9423866034a3/",
@@ -65,10 +65,12 @@ const projectList = [
   },
   {
     image: "",
-    title: "Unit 4 Capstone",
-    description: "lha",
+    title: "Weekend Getaway",
+    description:
+      "Weekend Getaway is an application made for people who love to travel and stay organized while doing it. Users can create accounts and search for fligths, hotels, and activities for their next vacation! Once the user decides where and when their next vacation will be, they can create a new trip and start adding flights, hotels, and activities. Planning a vaction can get messy, allow us to organize your next weekend getaway.",
     deployUrl: "blha",
-    gitUrl: "b;lah",
+    gitUrl: "https://github.com/julialima08/Weekend-Getaway-FE",
+    gitUrl2: "https://github.com/julialima08/Weekend-Getaway-BE",
   },
 ];
 

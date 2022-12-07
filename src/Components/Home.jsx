@@ -64,7 +64,7 @@ const Home = ({ title, name, gitHub, email, linkedIn }) => {
         </div>
       </div>
       <div style={{ position: "absolute", top: "30%", left: "38rem" }}>
-        <img src={headshot} alt="" style={{ height: "35vh", width: "30vw",border: "none", borderRadius: "30px" }} />
+        <img src={headshot} alt="" style={{ height: "35vh", width: "30vw" }} />
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
