@@ -64,7 +64,7 @@ const About = () => {
           boxShadow: "0 0 20px #2b2b2b",
         }}
       >
-        <h2>About Me</h2>
+        <h2 id="title">About Me</h2>
         <p className="large">{description}</p>
         <hr />
         <ul

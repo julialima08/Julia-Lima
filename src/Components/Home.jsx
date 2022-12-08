@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/keyboard.jpg";
+import image from "../images/plines.jpeg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
@@ -63,8 +63,8 @@ const Home = ({ title, name, gitHub, email, linkedIn }) => {
           )}
         </div>
       </div>
-      <div style={{ position: "absolute", top: "30%", left: "38rem" }}>
-        <img src={headshot} alt="" style={{ height: "35vh", width: "30vw" }} />
+      <div style={{ position: "absolute", top: "25%", right: "4rem" }}>
+        <img src={headshot} alt="" style={{ height: "400px", width: "420px" }} />
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />

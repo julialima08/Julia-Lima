@@ -12,7 +12,11 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
+
+/* html {
+} */
 
 div#main {
   display: flex;
@@ -30,6 +34,8 @@ div.dark {
 }
 .dark .background {
   width: 110vw;
+  height: 100vh;
+  right: 0;
 }
 
 div.light {
@@ -56,13 +62,13 @@ div img.background {
 h1 {
   font-weight: 300;
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 11vw;
   margin: 0;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 4vw;
   margin: 0;
   text-align: center;
 }
@@ -90,8 +96,8 @@ p.small {
 
 hr {
   margin: 2.5rem;
-  background-color: #2f1361;
-  border: 1px solid #2f1361;
+  background-color: rgb(112, 48, 155);
+  border: 1px solid rgb(112, 48, 155);
 }
 
 li {
@@ -119,7 +125,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 104vw;
   left: 0;
 }
 .container {
@@ -137,12 +143,15 @@ a:hover {
   /* display: flex;
   justify-content: flex-start;
   flex-direction: column; */
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(112, 48, 155);
   text-align: center;
   background-color: black;
   color: white;
   width: 300px;
   height: 450px;
+}
+#title {
+  color:rgb(112, 48, 155);
 }
 .box {
   align-items: center;

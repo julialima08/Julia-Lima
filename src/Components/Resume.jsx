@@ -19,7 +19,7 @@ const Resume = () => {
           boxShadow: "0 0 20px #2b2b2b",
         }}
       >
-        <h2>resume</h2>
+        <h2 id="title">resume</h2>
       </div>
     </div>
   );

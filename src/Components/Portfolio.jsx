@@ -77,7 +77,7 @@ const projectList = [
 const Portfolio = () => {
   return (
     <div className="light" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2 id="title">Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         {/* <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

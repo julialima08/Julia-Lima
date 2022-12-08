@@ -9,7 +9,7 @@ import { FaAddressBook } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaClipboardList } from "react-icons/fa";
 import { RiComputerLine } from "react-icons/ri";
-import { IoNewspaperSharp } from "react-icons/io";
+import { FaRegNewspaper } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         flexDirection: "column",
         justifyContent: "center",
         gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
+        background: "rgb(112, 48, 155, 0.5)",
         padding: "1rem",
         left: 0,
         width: "3vw",
@@ -38,7 +38,7 @@ const Header = () => {
         <RiComputerLine />
       </a>
       <a href="#resume">
-        <IoNewspaperSharp />
+        <FaRegNewspaper />
       </a>
       <a href="#contact">
         <FaAddressBook />
