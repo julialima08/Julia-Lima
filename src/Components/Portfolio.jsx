@@ -64,11 +64,11 @@ const projectList = [
     gitUrl2: "https://github.com/julialima08/Dinker-Frontend",
   },
   {
-    image: "",
+    image: "https://ucarecdn.com/47e7d865-9d87-47e6-8841-36ac7689073b/",
     title: "Weekend Getaway",
     description:
       "Weekend Getaway is an application made for people who love to travel and stay organized while doing it. Users can create accounts and search for fligths, hotels, and activities for their next vacation! Once the user decides where and when their next vacation will be, they can create a new trip and start adding flights, hotels, and activities. Planning a vaction can get messy, allow us to organize your next weekend getaway.",
-    deployUrl: "blha",
+    deployUrl: "https://wg-frontend.herokuapp.com/",
     gitUrl: "https://github.com/julialima08/Weekend-Getaway-FE",
     gitUrl2: "https://github.com/julialima08/Weekend-Getaway-BE",
   },
