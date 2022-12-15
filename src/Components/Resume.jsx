@@ -20,6 +20,8 @@ const Resume = () => {
         }}
       >
         <h2 id="title">resume</h2>
+        <button src="https://ucarecdn.com/0c6febfa-4dcd-4ff2-bcac-79748f1ef84c">View Resume</button>
+        <img src="https://ucarecdn.com/222461c2-26ac-4c38-881b-163a9e5c86ba/" alt="blah"></img>
       </div>
     </div>
   );
