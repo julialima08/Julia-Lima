@@ -185,3 +185,9 @@ img.socialIcon {
 #resume {
   width: 103%;
 }
+
+button {
+   background-color: #2b2b2b;
+   border: rgb(112, 48, 155);
+   color: rgb(112, 48, 155);
+}
