@@ -66,8 +66,8 @@ const Home = ({ title, name, gitHub, email, linkedIn }) => {
       <div style={{ position: "absolute", top: "25%", right: "5rem" }}>
         <img src={headshot} alt="" style={{ height: "50vh", width: "30vw", borderRadius:"25px" }} />
       </div>
-      <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
-       <a href="#about"><img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} /></a>
+      <div style={{ position: "absolute", bottom: "8rem", left: "50%", backgroundColor:"gray", borderRadius: "50px", height: "3.4rem", width: "3.6rem" }}>
+       <a href="#about" ><img src={arrowSvg} style={{ marginTop: ".23rem", height: "3rem", width: "3rem" }} alt={imageAltText} /></a>
       </div>
     </div>
   );
