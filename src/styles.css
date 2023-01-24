@@ -29,8 +29,8 @@ div {
 
 div.dark {
   min-height: 100vh;
-  color: white;
-  background: rgba(0, 0, 0, 0.25);
+  color: #55717d;
+  /* background: rgba(0, 0, 0, 0.25); */
 
 }
 .dark .background {
@@ -58,7 +58,7 @@ div img.background {
   transform: translate(-50%, 0);
   pointer-events: none;
   object-fit: cover;
-  opacity: .6;
+  opacity: .4;
 }
 
 h1 {
@@ -193,7 +193,9 @@ img.socialIcon {
 }
 
 button {
-   background-color: #2b2b2b;
-   border: rgb(112, 48, 155);
-   color: rgb(112, 48, 155);
+border-radius: 10px;
+   border: none;
+   background-color: #55717d;
+   width: 100px;
+   height: 30px;
 }

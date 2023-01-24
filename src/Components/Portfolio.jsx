@@ -29,7 +29,7 @@ import React from "react";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-import image from "../images/gray.webp";
+import image from "../images/dde.jpeg";
 
 const imageAltText = "purple and blue abstract background";
 const projectList = [

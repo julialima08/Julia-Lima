@@ -32,7 +32,7 @@ const Home = ({ title, name, gitHub, email, linkedIn }) => {
   return (
     <div id="home" className="dark">
       <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "30%", left: "6rem" }}>
+      <div style={{ position: "absolute", top: "30%", left: "9rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
         <div
@@ -63,8 +63,8 @@ const Home = ({ title, name, gitHub, email, linkedIn }) => {
           )}
         </div>
       </div>
-      <div style={{ position: "absolute", top: "25%", right: "4rem" }}>
-        <img src={headshot} alt="" style={{ height: "400px", width: "420px" }} />
+      <div style={{ position: "absolute", top: "25%", right: "5rem" }}>
+        <img src={headshot} alt="" style={{ height: "50vh", width: "30vw", borderRadius:"25px" }} />
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
        <a href="#about"><img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} /></a>
