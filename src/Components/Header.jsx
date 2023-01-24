@@ -20,7 +20,7 @@ const Header = () => {
         flexDirection: "column",
         justifyContent: "center",
         gap: "2rem",
-        background: "rgb(112, 48, 155, 0.5)",
+        background: "rgb(97, 97, 97, 0.5)",
         padding: "1rem",
         left: 0,
         width: "3vw",

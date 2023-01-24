@@ -31,6 +31,7 @@ div.dark {
   min-height: 100vh;
   color: white;
   background: rgba(0, 0, 0, 0.25);
+
 }
 .dark .background {
   width: 110vw;
@@ -43,7 +44,7 @@ div.light {
   /* background: rgba(255, 255, 255, 0.35); */
   padding: 8rem 0;
   font-family: 'Playfair Display', serif;
-  left: 3rem;
+width: 102vw;
 }
 
 
@@ -57,6 +58,7 @@ div img.background {
   transform: translate(-50%, 0);
   pointer-events: none;
   object-fit: cover;
+  opacity: .6;
 }
 
 h1 {
@@ -96,8 +98,8 @@ p.small {
 
 hr {
   margin: 2.5rem;
-  background-color: rgb(112, 48, 155);
-  border: 1px solid rgb(112, 48, 155);
+  background-color: #55717d;
+  border: 1px solid #55717d;
 }
 
 li {
@@ -121,7 +123,6 @@ a:hover {
   color: #4e567e;
 }
 #portfolio {
-  background-color: #2b2b2b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +130,7 @@ a:hover {
   left: 0;
 }
 .container {
-  left: 2rem;
+  left: 1rem;
   margin: 10px ;
   display: grid;
   grid-template-columns: 350px 350px;
@@ -143,15 +144,16 @@ a:hover {
   /* display: flex;
   justify-content: flex-start;
   flex-direction: column; */
-  border: 1px solid rgb(112, 48, 155);
+  border: 3px solid #b57d6d;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: #55717d;
+  /* color: white; */
   width: 300px;
   height: 450px;
 }
 #title {
-  color:rgb(112, 48, 155);
+  color:#4f6874;
+  font-size: 60px;
 }
 .box {
   align-items: center;
@@ -163,6 +165,7 @@ a:hover {
 .project-pic {
   width: 250px;
   height: 150px;
+  border: 3px solid #b57d6d;
 }
 
 .links {
@@ -171,6 +174,9 @@ a:hover {
   align-items: center;
   margin: 0;
   height: 50px;
+}
+.links h4 {
+  color: #ef8d9d;
 }
 
 img.socialIcon {

@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/moving.gif";
+import image from "../images/gray.webp";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "A recent high school graduate who is looking to get into the tech industry as a front-end web developer. Currently taking a coding bootcamp at General Assembly. I am dedicated, passionated, and a well organized coder hoping to make an impact in the field. My dream is to inspire young girls like myself to not be afraid to join this male dominated field.";
+  "As a highly ambitious and organized Front-End Developer, I specialize in utilizing languages such as JavaScript, HTML, CSS, Python, Markdown, and JSON to deliver top-quality products. My attention to detail and ability to work under pressure, along with my strong communication and time management skills, make me a valuable asset to any team. With a recent high school diploma, I am excited to bring fresh ideas and a strong work ethic to any software engineering job. My dream is to inspire young girls like myself to not be afraid to join this male dominated field.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,7 +32,7 @@ const description =
  */
 const skillsList = [
   "React and VueJs",
-  "Fullstack(MERN and PERN)",
+  "Fullstack (MERN and PERN)",
   "Handrolling Auth",
   "Expert in CSS3",
   "Open to learning new technologies",
@@ -53,15 +53,16 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "#2b2b2b",
+          backgroundColor: "#b57d6d",
           width: "65vw",
-          padding: "4rem",
-          margin: "2rem auto",
+          padding: "3rem",
+          margin: "1rem auto",
           textAlign: "center",
           borderRadius: "25px",
           mozBoxShadow: "0 0 20px #2b2b2b",
           webkitBoxShadow: "0 0 20px #2b2b2b",
           boxShadow: "0 0 20px #2b2b2b",
+          opacity: ".7",
         }}
       >
         <h2 id="title">About Me</h2>

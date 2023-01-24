@@ -29,6 +29,9 @@ import React from "react";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
+import image from "../images/gray.webp";
+
+const imageAltText = "purple and blue abstract background";
 const projectList = [
   {
     image: "https://ucarecdn.com/7a8e4244-8494-49fa-a0fb-8ecfa2c0728a/",
@@ -77,6 +80,7 @@ const projectList = [
 const Portfolio = () => {
   return (
     <div className="light" id="portfolio">
+      <img className="background" src={image} alt={imageAltText} />
       <h2 id="title">Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         {/* <div style={{ maxWidth: "40%", alignSelf: "center" }}>
@@ -93,10 +97,10 @@ const Portfolio = () => {
               <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <div className="links">
                 <a href={project.gitUrl} target="_blank" rel="noopener noreferrer">
-                  <h4>Github Repo</h4>
+                  <h4>Github Repo |</h4>
                 </a>
                 <a href={project.deployUrl} target="_blank" rel="noopener noreferrer">
-                  <h4>Deployed Progect</h4>
+                  <h4>| Deployed Progect</h4>
                 </a>
               </div>
               <p className="small">{project.description}</p>
