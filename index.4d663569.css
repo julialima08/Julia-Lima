@@ -21,8 +21,7 @@ div {
 
 div.dark {
   min-height: 100vh;
-  color: #fff;
-  background: #00000040;
+  color: #55717d;
 }
 
 .dark .background {
@@ -33,9 +32,9 @@ div.dark {
 
 div.light {
   color: #fff;
+  width: 102vw;
   padding: 8rem 0;
   font-family: Playfair Display, serif;
-  left: 3rem;
 }
 
 div img.background {
@@ -44,6 +43,7 @@ div img.background {
   z-index: -1;
   pointer-events: none;
   object-fit: cover;
+  opacity: .4;
   position: absolute;
   top: 0;
   left: 45%;
@@ -86,8 +86,8 @@ p.small {
 }
 
 hr {
-  background-color: #70309b;
-  border: 1px solid #70309b;
+  background-color: #55717d;
+  border: 1px solid #55717d;
   margin: 2.5rem;
 }
 
@@ -113,7 +113,6 @@ a:hover {
 
 #portfolio {
   width: 104vw;
-  background-color: #2b2b2b;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -126,22 +125,22 @@ a:hover {
   justify-content: center;
   margin: 10px;
   display: grid;
-  left: 2rem;
+  left: 1rem;
 }
 
 .container .box {
   text-align: center;
-  color: #fff;
   width: 300px;
   height: 450px;
-  background-color: #000;
-  border: 1px solid #70309b;
+  background-color: #55717d;
+  border: 3px solid #b57d6d;
   border-radius: 10px;
   padding: 24px 16px;
 }
 
 #title {
-  color: #70309b;
+  color: #4f6874;
+  font-size: 60px;
 }
 
 .box {
@@ -154,6 +153,7 @@ a:hover {
 .project-pic {
   width: 250px;
   height: 150px;
+  border: 3px solid #b57d6d;
 }
 
 .links {
@@ -162,6 +162,10 @@ a:hover {
   align-items: center;
   margin: 0;
   display: flex;
+}
+
+.links h4 {
+  color: #ef8d9d;
 }
 
 img.socialIcon {
@@ -174,9 +178,11 @@ img.socialIcon {
 }
 
 button {
-  color: #70309b;
-  background-color: #2b2b2b;
-  border: #70309b;
+  width: 100px;
+  height: 30px;
+  background-color: #55717d;
+  border: none;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
